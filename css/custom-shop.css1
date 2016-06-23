@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+[rel=popover][data-color=blue] + .popover {
+    background: blue;
+	color: #000000;
+	font-size: 1.2em;
+}
+body {
+	background-color: #f5f5f5;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+	
+}
+.wrapper {
+	hero-unit-shadow-bottom.png
+}
+.row-fluid {
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+}
+div.shop-gears {
+	text-align: center;
+}
+.shop-gears img {
+	width: 45px;
+	height: 45px;
+}
+hr {
+	border-bottom: 1px solid #eeeeee;
+	border-top: 1px solid #cccccc;
+	height: 0;
+	margin: 0px 0;
+}
+fieldset {
+	margin: 10px 0px 0px 0px;
+	padding: 9px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: solid 4px #bbbbbb;
+}
+
+legend {
+	text-align: center;
+	background-color: #ECF4FF/* #D9EAFF*/;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.6em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+	width: auto;
+	border: 2px solid #bbbbbb;
+	color:#666;
+}
+legend.blue {
+	background-color: #ECF4FF/* #D9EAFF*/;
+}
+legend.orange {
+	background-color: #FFF1D9/* #D9EAFF*/;
+}
+
+div.span12.shop-balance fieldset {
+	background-color: #ECF4FF;}
+div.span12.shop-rewards fieldset {
+	background-color: #FFF8EA/* #FFF1D9*/;}
+	
+div .shop-balance fieldset, div .shop-rewards fieldset {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+div .shop-balance td, div .shop-rewards td {
+	font-size: 1.2em;
+	vertical-align: middle;
+}
+.btn-go {
+	font-size: 5em;
+	width: 100%;
+	height: 2em;
+
+}
+
+/*------ LOGO -------*/
+.shop-logo-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.logo {
+	height: 100%;
+}
+
+/*------ Shop Menu -------*/
+div.shop-search {
+	vertical-align: middle;
+}
+.shop-search form{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+input.shop-search-query {
+	margin-top: 11px;
+	height: 1.6em;
+	width: 60%;	
+}
+.btn-search {
+	margin-left: 15px;
+}
+input.shop-search-query {
+	background-image: url(../img/qrcode-grey.fw.png);
+	background-repeat: no-repeat;
+	background-position: 10px -1px;
+	background-color: #FEF8ED;
+	letter-spacing: 1px;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 15px;
+	box-shadow: 0px 1px 3px #666666 inset;
+}
+.shop-menu-fieldset {
+	border: solid 1px #bbbbbb;	
+}
+div.shop-menu button {
+	width: 95%;
+	font-size: 20px;
+}
+.shop-menu {
+	text-align: center;
+}
+
+/* ---- BALANCE & REWARDS ---- */
+
+table.table.table-striped{
+  font-size: 2em;
+  margin: 9px;
+  padding: 0;
+}
+.table td {
+  padding: 7px 10px;
+  margin-bottom: 10px;
+}
+table.table td, table.table td span {
+  vertical-align: middle;
+}
+.table td button {
+	width: 100%;
+	height: 42px;
+}
+.shop-add-item, .shop-redeem-item{
+	font-size: 1em;
+	font-weight: bold;
+}
+table.table tr td.span1 {
+	width: 8%;
+}
+.shop-qty-unit {
+	padding: 0px 10px 0px 10px;
+	font-size: 0.5em;
+}
+/* ---------- POPOVERS ------------ */
+
+.popover {
+  max-width: 70%;
+  text-align: left;
+  background-color: #ffffff;
+  white-space: normal;
+  line-height: normal;  
+}
+.shop-hint a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.popover-title {
+  margin: 0;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.shop-popover-title {
+	vertical-align: middle;
+	font-size: 2.2em;
+}
+.popover.top .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+}
+[rel=popover] + .popover {
+/*    background: none;*/
+	margin-left: 20px;
+	color: #000000;
+	border: 5px solid #CCCCCC;
+}
